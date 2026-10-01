@@ -18,3 +18,28 @@ html {
 .c-pill--disabled {
     background-color: orangered;
 }
+
+.c-pill--party:hover {
+    animation: strobe-effect 0.2s infinite alternate;
+}
+
+/* I copy and pasted this from Google */
+@keyframes strobe-effect 
+    {
+  0%, 100% {
+    background-color: #ff0055; 
+    box-shadow: 0 0 20px #ff0055, 0 0 40px #ff0055;
+  }
+  25% {
+    background-color: #00ffcc; 
+    box-shadow: 0 0 20px #00ffcc, 0 0 40px #00ffcc;
+  }
+  50% {
+    background-color: #ffcc00; 
+    box-shadow: 0 0 20px #ffcc00, 0 0 40px #ffcc00;
+  }
+  75% {
+    background-color: #9900ff; 
+    box-shadow: 0 0 20px #9900ff, 0 0 40px #9900ff;
+  }
+}
