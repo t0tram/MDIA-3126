@@ -1,0 +1,12 @@
+html {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    background-color: chartreuse;
+}
+
+.c-pill {
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px;
+    padding: 6px;
+    background-color: orange;
+}
