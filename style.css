@@ -1,6 +1,6 @@
 html {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    background-color: chartreuse;
+    text-align: center;
 }
 
 .c-pill {
@@ -9,4 +9,12 @@ html {
     border: 2px;
     padding: 6px;
     background-color: orange;
+}
+.c-pill--secondary {
+    background-color: rgb(144, 255, 33);
+    color: orange;
+}
+
+.c-pill--disabled {
+    background-color: orangered;
 }
